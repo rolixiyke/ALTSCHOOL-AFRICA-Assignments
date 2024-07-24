@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIA ASSIGNMENT</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">About me</a></li>
+                <li><a href="form.html">Application form</a></li>
+                <li><a href="tables.html">Courses</a></li>
+                <li><a href="media.html">Media</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Hello</h2>
+            <p>My name is Ikechukwu Moses Ndukwe and I am a student of ALTSCHOOL AFRICA. I am currently learning Backend Engineering at Altschool and so far so good the program has been going well.</p>
+        </section>
+        <section>
+            <h3>An image of Ikechukwu</h3>
+            <picture>
+                <source srcset="image.jpg" media="(max-width: 600px)">
+                <source srcset="image.jpg" media="(min-width: 601px) and (max-width: 1200px)">
+                <source srcset="image.jpg" media="(min-width: 1201px)">
+                <img src="immage.jpg" alt="image of Ikechukwu" width="100px" height="100px">
+            </picture>
+        </section>
+        <section>
+            <h3>Video</h3>
+            <video controls width="500px" height="500px">
+                <source src="tynker.mp4" type="video/mp4">
+                <source src="tynker.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+        <section>
+            <h3>Song</h3>
+            <audio controls>
+                <source src="song.m4a" type="audio/mpeg">
+                <source src="song.m4a" type="audio/ogg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            AltSchool Africa is a registered trademark of TalentQL Technologies. © 2021–2024 TalentQL, Inc.
+        </p>
+    </footer>
+</body>
+</html>
